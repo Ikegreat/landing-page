@@ -24,7 +24,7 @@ body {
 
 main {
     border: 1px solid black;
-    width: 300px;
+     width: 300px;
     height: auto;
     border-radius: 5px;
      background-color: hsl(257, 40%, 49%);
