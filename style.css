@@ -10,7 +10,6 @@ body {
     font-optical-sizing: auto;
     font-style: normal;
 }
-
 main {
     width: 100%;
     min-height: 100vh;
@@ -30,7 +29,6 @@ main {
 .illustration-image {
     width: 100%;
     margin-bottom: 15px;
-    
 }
 section {
     text-align: center;
@@ -57,18 +55,14 @@ button {
     font-size: 13px;
     margin-bottom: 10px;
     cursor: pointer;
-    margin: 0px auto;
-    
+    margin: 0px auto;   
 }
 .socials  {
   display: flex;              
   justify-content: center;    
   align-items: center;        
-  gap: 10px;     
-             
-  
+  gap: 10px;      
 }
-
 .socials a {
   color: white;
   border: 1px solid white;
@@ -80,8 +74,29 @@ button {
   justify-content: center;
   text-decoration: none;
  }
-
 .socials a:hover {
   color: hsl(300, 69%, 71%);
   border-color: hsl(300, 69%, 71%);
-} 
+}
+
+@media (min-width :767px) {
+    main {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    #grid-1{
+        grid-column: 1/2;
+        
+    }
+    #head-2 {
+        font-weight: 700;
+        line-height: 38px;
+        font-size: 22px;
+        
+    }
+    #button-1 {
+        grid-column: 1/3;
+        margin-right: 30px;
+        margin-bottom: -30px;
+    }
+}
